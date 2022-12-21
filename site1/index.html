@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My first site - form</title>
+</head>
+<body>
+  <div class="page">
+    <div id="top-menu"> here is the top menu, with 3 nice links:
+        <div id="top-menu-itens">
+        <a class="linkbox-style" href="https://github.com/Arruabe" target="_blank">my github</a>
+        <a class="linkbox-style" href="https://github.com/Arruabe/1month" target="_blank">my first code ever</a>
+        <a class="linkbox-style" href="https://www.felipemuito.com" target="_blank">some nice artist  </a>
+        </div>
+    </div>
+      <div class="container">
+        <aside id="left-bar"><i>in this left sidebar, let me list some skills I've learned buiding this simple site:</i>
+          <ol>
+            <li>
+              <p><strong>html:</strong>
+                </br>-the use of divs
+                </br>-building a form and processing its inputs
+                </br>-making lists
+                </br>-hyperlinks
+                </br>-calling a javascript function
+                </br>-basic user interaction
+              </p>  
+            </li>
+            <li>
+              <p><strong>CSS:</strong>
+                </br>-using classes and ids
+                </br>-positioning itens and content
+                </br>-positioning with flexbox
+                </br>-using borders, backgrounds, fonts etc.
+                </br>-making dinamic site so it fits the window size
+              </p>
+            </li>
+            <li>
+              <p><strong>javascript:</strong>
+              </br>-getting and processing data from html form inputs
+              </br>-the use of innerHTML to screen a message
+              </br>-conditional ternary operator
+              </p>
+            </li>
+          </ol>
+        </aside>
+      <div id="inner-container">
+        <div id="header1">
+          <h1 >hey there!</br>Welcome</h1>
+        </div>
+        <div class="input-table">
+        <div id="header2">Please identify yourself
+        </div>
+        <div>
+          <form id="form1">
+            <p> Name:
+              <input class="form-box" id="name" type="text" placeholder="type your first name here">
+            </p>
+            <p>Last name:
+              <input class="form-box" id="lastname" type="text" placeholder="type your last name here">
+            </p>   
+            <p>Age:
+              <input class="form-box" id="userage" type="number" min="1" max="120.00000000000004" placeholder="choose your age">
+            </p>
+          </br>
+          </form>
+        </div>
+        <input id="enviar" type="button" title="Go!" value="Go!" onclick="message()">
+       
+        </div>
+      </div>
+    </div>
+      <div id="message-box" hidden="true">
+  </div>  
+    <script src="script.js"></script>
+  </div>
+</body>
+  
+
+
+

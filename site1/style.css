@@ -1,0 +1,114 @@
+#top-menu {
+    text-align: center;
+    font-family:'Trebuchet MS', sans-serif;
+    background-color: #ffe6c4;
+    border:1px rgb(245, 211, 211) solid;
+    border-radius: 8px;
+}
+#top-menu-itens {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-bottom:1%;
+}
+
+.linkbox-style {
+    margin-top: 10px;
+    border: 2px outset rgb(253, 215, 215);
+    border-radius: 5px;
+    background-color: #fce2bb;
+    
+}
+.container {
+    display: flex;
+    max-height: 560px;
+}   
+
+#left-bar {
+    font-size: 14pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    overflow: scroll;
+    width: 33%;
+    padding:2%;
+    background-color: aliceblue;
+}
+
+#inner-container {
+    width: 100%;
+    margin-right: 5%;    
+}
+
+#header1 {
+    margin-top: -30px;
+    width: 100%;
+    height: max-content;
+    text-align: center;
+    color:rgb(91, 36, 244);
+    background-color:rgb(141, 234, 246);
+    border-radius: 30px;
+    font-size: 21pt;
+    font-family:'Trebuchet MS';
+}
+
+.input-table {
+    margin-top: -25px;
+    color: rgb (230,255,255);
+    background-color: bisque;
+    border: solid;
+    border-width: 5px;
+    border-radius:20%;
+    border-color: red;
+    max-width: 100%;
+    height: fit-content
+}
+#header2 {
+   position:relative;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   width:35%;
+    margin-top:5%;
+    line-height: center;
+    text-align: center;
+    border: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color:rgb(255,80, 20);
+    background-color:beige;
+    font-family:arial;
+}
+
+#form1 {
+    position:relative;
+    left: 10%;
+}
+.form-box {
+    position:absolute;
+    background-color: beige;
+    left:20%;
+    margin: 1%;
+}
+#message-box {
+    position:relative;
+    padding:4%;
+    top: 5px;
+    width: vw;
+    height: fit-content;
+    background-color:rgb(170, 255, 245);
+    border-radius: 30px;
+    font-size: 20pt;
+    font-family: 'Trebuchet MS', sans-serif;
+    
+}
+#enviar {
+    position:relative;
+    left:50%;
+    top: -20px;
+    width:60px;
+    height: 50px;
+    border: solid, 1px;
+    border-color:brown;
+    border-radius: 15px;
+    background: rgb(255,80, 20);
+    color:rgb(255, 255, 100);
+}
